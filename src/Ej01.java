@@ -2,7 +2,7 @@ import java.time.Month;
 import java.time.Year;
 import java.util.Scanner;
 
-public class Main {
+public class Ej01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int day = 0;
