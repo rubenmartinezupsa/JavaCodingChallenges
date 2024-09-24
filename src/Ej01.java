@@ -23,7 +23,7 @@ public class Ej01 {
             } else {
                 int total = day + month + year;
                 String totalStr = String.valueOf(total);
-                System.out.println(day + " + " + month + " + " + year + " = " + totalStr);
+                System.out.println(STR."\{day} + \{month} + \{year} = \{totalStr}");
                 int luckNum = 0;
                 for (int i = 0; i < totalStr.length(); i++) {
                     int oldLuckNum = luckNum;
